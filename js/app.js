@@ -13,7 +13,7 @@ const pics = ["fa fa-diamond", "fa fa-diamond", "fa fa-paper-plane-o",
  *   - loop through each card and create its HTML
  *   - add each card's HTML to the page
  */
- // Shuffle function from http://stackoverflow.com/a/2450976
+ // Shuffle function
 function shuffle(pics) {
     var currentIndex = pics.length, temporaryValue, randomIndex;
 
@@ -72,7 +72,7 @@ function click(card) {
 
 				showCards = [];
 
-				// checks is game is over
+				// checks if game is over
 
 				gameOver();
 
